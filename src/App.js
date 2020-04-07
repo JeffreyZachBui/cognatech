@@ -44,7 +44,7 @@ class App extends Component {
         }
 
         const getURL = 'https://cogna.herokuapp.com/message';
-        fetch(getURL, payload).then(response => {
+        fetch(getURL, payload, {mode: 'no-cors'}).then(response => {
           if (response.ok) {
             console.log(response);
           } else {
