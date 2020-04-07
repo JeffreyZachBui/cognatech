@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd0152b183bc2fa16cd691b1a2c392a1",
+    "revision": "d48c7895f96446fe4478cd0a0d93edbe",
     "url": "/cognatech/index.html"
   },
   {
-    "revision": "86e2a78de63a52cd9b82",
+    "revision": "3e23ed1e7d414ca47bf7",
     "url": "/cognatech/static/css/main.90f4b35e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cognatech/static/js/2.c4996b23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "86e2a78de63a52cd9b82",
-    "url": "/cognatech/static/js/main.dc01bda0.chunk.js"
+    "revision": "3e23ed1e7d414ca47bf7",
+    "url": "/cognatech/static/js/main.ffc57d76.chunk.js"
   },
   {
     "revision": "4dd05ccd789938571612",
