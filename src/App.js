@@ -43,7 +43,7 @@ class App extends Component {
           body: JSON.stringify(fields)
         }
 
-        const getURL = 'http://cogna.herokuapp.com/message';
+        const getURL = 'https://cogna.herokuapp.com/message';
         fetch(getURL, payload).then(response => {
           if (response.ok) {
             console.log(response);
