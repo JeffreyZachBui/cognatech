@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/cognatech/static/css/main.90f4b35e.chunk.css",
-    "main.js": "/cognatech/static/js/main.e3a6bb4a.chunk.js",
-    "main.js.map": "/cognatech/static/js/main.e3a6bb4a.chunk.js.map",
+    "main.js": "/cognatech/static/js/main.f46010a3.chunk.js",
+    "main.js.map": "/cognatech/static/js/main.f46010a3.chunk.js.map",
     "runtime-main.js": "/cognatech/static/js/runtime-main.09ea1147.js",
     "runtime-main.js.map": "/cognatech/static/js/runtime-main.09ea1147.js.map",
-    "static/js/2.c4996b23.chunk.js": "/cognatech/static/js/2.c4996b23.chunk.js",
-    "static/js/2.c4996b23.chunk.js.map": "/cognatech/static/js/2.c4996b23.chunk.js.map",
+    "static/js/2.03b72a58.chunk.js": "/cognatech/static/js/2.03b72a58.chunk.js",
+    "static/js/2.03b72a58.chunk.js.map": "/cognatech/static/js/2.03b72a58.chunk.js.map",
     "index.html": "/cognatech/index.html",
-    "precache-manifest.1c8c3db298ae739fa6c2e3a668c6e1b8.js": "/cognatech/precache-manifest.1c8c3db298ae739fa6c2e3a668c6e1b8.js",
+    "precache-manifest.4016fc652c72104acff2130c830ee077.js": "/cognatech/precache-manifest.4016fc652c72104acff2130c830ee077.js",
     "service-worker.js": "/cognatech/service-worker.js",
     "static/css/main.90f4b35e.chunk.css.map": "/cognatech/static/css/main.90f4b35e.chunk.css.map",
-    "static/js/2.c4996b23.chunk.js.LICENSE.txt": "/cognatech/static/js/2.c4996b23.chunk.js.LICENSE.txt",
+    "static/js/2.03b72a58.chunk.js.LICENSE.txt": "/cognatech/static/js/2.03b72a58.chunk.js.LICENSE.txt",
     "static/media/Cogna_Logo.png": "/cognatech/static/media/Cogna_Logo.a114eb31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.09ea1147.js",
-    "static/js/2.c4996b23.chunk.js",
+    "static/js/2.03b72a58.chunk.js",
     "static/css/main.90f4b35e.chunk.css",
-    "static/js/main.e3a6bb4a.chunk.js"
+    "static/js/main.f46010a3.chunk.js"
   ]
 }

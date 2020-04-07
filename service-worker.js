@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cognatech/precache-manifest.1c8c3db298ae739fa6c2e3a668c6e1b8.js"
+  "/cognatech/precache-manifest.4016fc652c72104acff2130c830ee077.js"
 );
 
 self.addEventListener('message', (event) => {
