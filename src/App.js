@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import HomepageImage from './components/HomepageImage'
 import Form from './components/Form'
+import axios from "axios"
 
 
   // function Submit() {
@@ -25,31 +26,31 @@ class App extends Component {
     onSubmit = fields => {
         this.setState({ fields });
         console.log(fields);
-        // axios.post('https://cogna.herokuapp.com/message',  { crossdomain: true }, {fields})
-        //   .then(res => {
-        //     console.log(res);
-        //     console.log(res.data);
-        //   })  
+        axios.post('https://cogna.herokuapp.com/message',  { crossdomain: true }, {fields})
+          .then(res => {
+            console.log(res);
+            console.log(res.data);
+          })  
 
-        const headers = {
-          Accept: "application/json, text/plain, */8",
-          "Content-Type": "applicaiton/json",
-        }; 
+        // const headers = {
+        //   Accept: "application/json, text/plain, */8",
+        //   "Content-Type": "applicaiton/json",
+        // }; 
 
-        const payload = {
-          method: "POST",
-          headers,
-          body: JSON.stringify(fields)
-        }
+        // const payload = {
+        //   method: "POST",
+        //   headers,
+        //   body: JSON.stringify(fields)
+        // }
 
-        const getURL = 'http://cogna.herokuapp.com/message';
-        fetch(getURL, payload).then(response => {
-          if (response.ok) {
-            console.log(response);
-          } else {
-            throw new Error(response.text());
-          }
-        }).catch(error => alert(error));
+        // const getURL = 'http://cogna.herokuapp.com/message';
+        // fetch(getURL, payload).then(response => {
+        //   if (response.ok) {
+        //     console.log(response);
+        //   } else {
+        //     throw new Error(response.text());
+        //   }
+        // }).catch(error => alert(error));
 
     }
 
