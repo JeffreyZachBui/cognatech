@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cogntatech/static/css/main.5f361e03.chunk.css",
+    "main.js": "/cogntatech/static/js/main.e4e39ac8.chunk.js",
+    "main.js.map": "/cogntatech/static/js/main.e4e39ac8.chunk.js.map",
+    "runtime-main.js": "/cogntatech/static/js/runtime-main.b61c1b03.js",
+    "runtime-main.js.map": "/cogntatech/static/js/runtime-main.b61c1b03.js.map",
+    "static/js/2.9d895aaf.chunk.js": "/cogntatech/static/js/2.9d895aaf.chunk.js",
+    "static/js/2.9d895aaf.chunk.js.map": "/cogntatech/static/js/2.9d895aaf.chunk.js.map",
+    "index.html": "/cogntatech/index.html",
+    "precache-manifest.7837a19d59718bba0aa2bd727d4b216c.js": "/cogntatech/precache-manifest.7837a19d59718bba0aa2bd727d4b216c.js",
+    "service-worker.js": "/cogntatech/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/cogntatech/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9d895aaf.chunk.js.LICENSE.txt": "/cogntatech/static/js/2.9d895aaf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/cogntatech/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b61c1b03.js",
+    "static/js/2.9d895aaf.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.e4e39ac8.chunk.js"
+  ]
+}
