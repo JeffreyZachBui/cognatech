@@ -18,11 +18,6 @@ class App extends Component {
       fields: {}
     };
 
-
-    // handleSendEmail = fields => {
-    //   console.log(fields)
-    // }
-
     onSubmit = fields => {
         this.setState({ fields });
         console.log(fields);
@@ -44,7 +39,7 @@ class App extends Component {
         }
 
         const getURL = 'https://cogna.herokuapp.com/message';
-        fetch(getURL, payload, {mode: 'no-cors'}).then(response => {
+        fetch(getURL, payload).then(response => {
           if (response.ok) {
             console.log(response);
           } else {
